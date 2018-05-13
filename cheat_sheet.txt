@@ -1,0 +1,2 @@
+Fill colours depending on the labels value (binary classificaiton)
+colors = np.where(labels==1, 'blue', 'red')
