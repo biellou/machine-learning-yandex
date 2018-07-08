@@ -1,0 +1,4 @@
+Log file created at: 2018/05/21 19:29:42
+Running on machine: MacBook-Air-MacBook.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0521 19:29:42.254848 2679264128 c_interface.cc:127] Logging enabled to .

@@ -1,0 +1,35 @@
+Log file created at: 2018/05/21 19:00:28
+Running on machine: MacBook-Air-MacBook.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0521 19:00:28.722246 2679264128 c_interface.cc:127] Logging enabled to .
+I0521 19:00:28.722869 2679264128 c_interface.cc:128] BigARTM version: v0.9.0
+I0521 19:00:28.723595 2679264128 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0521 19:00:28.723675 2679264128 c_interface.cc:274] Creating MasterModel (id=1)...
+I0521 19:00:28.729542 2679264128 collection_parser.cc:557] CollectionParserConfig.num_threads is automatically set to 4
+I0521 19:00:29.144163 2679264128 c_interface.cc:375] Pass ff3ee4c9-a64b-4d0b-afaf-20ccddec4ffe to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0521 19:00:29.145540 2679264128 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=ff3ee4c9-a64b-4d0b-afaf-20ccddec4ffe, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0521 19:00:29.146343 2679264128 dictionary_operations.cc:261] Found 5 batches in 'school_batches' folder
+I0521 19:00:29.193815 2679264128 dictionary_operations.cc:325] Find 16099 unique tokens in 476 items
+I0521 19:00:29.222796 2679264128 dictionary_operations.cc:589] Dictionary name='ff3ee4c9-a64b-4d0b-afaf-20ccddec4ffe' contains entries: text:16099; 
+I0521 19:00:32.882706 2679264128 c_interface.cc:375] Pass ff3ee4c9-a64b-4d0b-afaf-20ccddec4ffe to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0521 19:00:32.889364 2679264128 c_interface.cc:339] Disposing MasterComponent (id=1)...
+I0521 19:00:35.777997 2679264128 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=10, class=(text:1), score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0521 19:00:35.778030 2679264128 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0521 19:00:35.780786 2679264128 c_interface.cc:274] Creating MasterModel (id=2)...
+I0521 19:00:35.780771 87629824 processor.cc:724] Processor thread started
+I0521 19:00:35.781482 88166400 processor.cc:724] Processor thread started
+I0521 19:00:35.781549 88702976 processor.cc:724] Processor thread started
+I0521 19:00:35.781987 89239552 processor.cc:724] Processor thread started
+I0521 19:00:35.815212 88702976 processor.cc:740] No data in processing queue, waiting...
+I0521 19:00:35.816267 88166400 processor.cc:740] No data in processing queue, waiting...
+I0521 19:00:35.816365 87629824 processor.cc:740] No data in processing queue, waiting...
+I0521 19:00:35.816354 89239552 processor.cc:740] No data in processing queue, waiting...
+I0521 19:29:31.643384 89239552 processor.cc:732] Processor thread stopped
+I0521 19:29:31.649891 89239552 processor.cc:733] Total number of processed batches: 0
+I0521 19:29:31.650863 88702976 processor.cc:732] Processor thread stopped
+I0521 19:29:31.650912 88702976 processor.cc:733] Total number of processed batches: 0
+I0521 19:29:31.652338 88166400 processor.cc:732] Processor thread stopped
+I0521 19:29:31.652377 88166400 processor.cc:733] Total number of processed batches: 0
+I0521 19:29:31.653750 87629824 processor.cc:732] Processor thread stopped
+I0521 19:29:31.653790 87629824 processor.cc:733] Total number of processed batches: 0
+I0521 19:29:31.653959 2679264128 c_interface.cc:339] Disposing MasterComponent (id=2)...

@@ -1,2 +1,4 @@
+Jupyter hotkeys: https://gist.github.com/kidpixo/f4318f8c8143adee5b40
+
 Fill colours depending on the labels value (binary classificaiton)
 colors = np.where(labels==1, 'blue', 'red')

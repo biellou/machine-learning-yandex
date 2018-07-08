@@ -1,0 +1,49 @@
+Log file created at: 2018/05/21 19:02:34
+Running on machine: MacBook-Air-MacBook.local
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0521 19:02:34.502841 2679264128 c_interface.cc:127] Logging enabled to .
+I0521 19:02:34.503741 2679264128 c_interface.cc:128] BigARTM version: v0.9.0
+I0521 19:02:34.503883 2679264128 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0521 19:02:34.503949 2679264128 c_interface.cc:274] Creating MasterModel (id=1)...
+I0521 19:02:34.506281 2679264128 collection_parser.cc:557] CollectionParserConfig.num_threads is automatically set to 4
+W0521 19:02:34.670735 209375232 helpers.cc:221] File already exists: school_batches/aaaaaa.batch
+W0521 19:02:34.700273 209911808 helpers.cc:221] File already exists: school_batches/aaaaab.batch
+W0521 19:02:34.732867 210448384 helpers.cc:221] File already exists: school_batches/aaaaac.batch
+W0521 19:02:34.767737 210984960 helpers.cc:221] File already exists: school_batches/aaaaad.batch
+W0521 19:02:34.858001 209375232 helpers.cc:221] File already exists: school_batches/aaaaae.batch
+I0521 19:02:34.874524 2679264128 c_interface.cc:375] Pass a3af70fc-2275-48b1-8453-a376288a89fc to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0521 19:02:34.874800 2679264128 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=a3af70fc-2275-48b1-8453-a376288a89fc, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0521 19:02:34.875027 2679264128 dictionary_operations.cc:261] Found 5 batches in 'school_batches' folder
+I0521 19:02:34.922322 2679264128 dictionary_operations.cc:325] Find 16099 unique tokens in 476 items
+I0521 19:02:34.947015 2679264128 dictionary_operations.cc:589] Dictionary name='a3af70fc-2275-48b1-8453-a376288a89fc' contains entries: text:16099; 
+I0521 19:02:36.943495 2679264128 c_interface.cc:375] Pass a3af70fc-2275-48b1-8453-a376288a89fc to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0521 19:02:36.950031 2679264128 c_interface.cc:339] Disposing MasterComponent (id=1)...
+I0521 19:02:40.499148 2679264128 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=10, class=(text:1), score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=1, reuse_theta=yes, cache_theta=yes, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0521 19:02:40.499181 2679264128 instance.cc:401] MasterModelConfig.processors_count is automatically set to 4
+I0521 19:02:40.499259 209375232 processor.cc:724] Processor thread started
+I0521 19:02:40.499307 2679264128 c_interface.cc:274] Creating MasterModel (id=2)...
+I0521 19:02:40.499295 209911808 processor.cc:724] Processor thread started
+I0521 19:02:40.499361 210448384 processor.cc:724] Processor thread started
+I0521 19:02:40.499387 210984960 processor.cc:724] Processor thread started
+I0521 19:02:40.524222 210984960 processor.cc:740] No data in processing queue, waiting...
+I0521 19:02:40.524221 209911808 processor.cc:740] No data in processing queue, waiting...
+I0521 19:02:40.524266 209375232 processor.cc:740] No data in processing queue, waiting...
+I0521 19:02:40.524268 210448384 processor.cc:740] No data in processing queue, waiting...
+I0521 19:02:42.853442 2679264128 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0521 19:02:42.853473 2679264128 c_interface.cc:274] Creating MasterModel (id=3)...
+I0521 19:02:42.853752 2679264128 c_interface.cc:375] Pass dictionary to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0521 19:02:42.853981 2679264128 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=dictionary, data_path=school_batches, symmetric_cooc_values=0 to MN4artm4core15MasterComponentEFvRKNS_20GatherDictionaryArgsEE
+I0521 19:02:42.854280 2679264128 dictionary_operations.cc:261] Found 5 batches in 'school_batches' folder
+I0521 19:02:42.913466 2679264128 dictionary_operations.cc:325] Find 16099 unique tokens in 476 items
+I0521 19:02:42.946094 2679264128 dictionary_operations.cc:589] Dictionary name='dictionary' contains entries: text:16099; 
+I0521 19:29:20.207043 210984960 processor.cc:732] Processor thread stopped
+I0521 19:29:20.208755 210984960 processor.cc:733] Total number of processed batches: 0
+I0521 19:29:20.210999 210448384 processor.cc:732] Processor thread stopped
+I0521 19:29:20.211055 210448384 processor.cc:733] Total number of processed batches: 0
+I0521 19:29:20.212288 209911808 processor.cc:732] Processor thread stopped
+I0521 19:29:20.212334 209911808 processor.cc:733] Total number of processed batches: 0
+I0521 19:29:20.213579 209375232 processor.cc:732] Processor thread stopped
+I0521 19:29:20.215945 209375232 processor.cc:733] Total number of processed batches: 0
+I0521 19:29:20.222067 2679264128 c_interface.cc:339] Disposing MasterComponent (id=2)...
+I0521 19:29:20.223096 2679264128 c_interface.cc:375] Pass dictionary to MN4artm4core15MasterComponentEFvRKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEE
+I0521 19:29:20.244535 2679264128 c_interface.cc:339] Disposing MasterComponent (id=3)...
